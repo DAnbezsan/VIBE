@@ -1,29 +1,23 @@
 
-import React from 'react';
-
-export interface Ministry {
-  id: string;
-  title: string;
-  description: string;
-  icon: string;
-  image: string;
-}
-
-export interface ServiceTime {
+export interface ScheduleItem {
   day: string;
   time: string;
-  type: string;
+  activity: string;
+  description?: string;
 }
 
 export interface SocialLink {
-  label: string;
-  platform: string;
+  platform: 'Instagram' | 'YouTube' | 'Facebook' | 'WhatsApp';
   url: string;
-  icon: React.ReactNode;
-  color: string;
+  label: string;
 }
 
-export interface Message {
-  role: 'user' | 'model';
-  text: string;
+export interface ChurchInfo {
+  name: string;
+  tagline: string;
+  address: string;
+  city: string;
+  googleMapsUrl: string;
+  socials: SocialLink[];
+  schedule: ScheduleItem[];
 }

@@ -1,20 +1,24 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# Catálogo Digital VI.B.E - Vinde Benditos do Eterno
 
-This contains everything you need to run your app locally.
+Este é o catálogo digital da Igreja VI.B.E, desenvolvido com React e Tailwind CSS, pronto para ser hospedado no GitHub Pages.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1DURfEzeL9eH-EiDOU08pB8peU_7VK6Ej
+## 🚀 Como publicar no GitHub Pages
 
-## Run Locally
+1. **Criar Repositório**: Crie um novo repositório no seu GitHub.
+2. **Subir Arquivos**: Envie todos os arquivos deste projeto para a raiz do repositório.
+3. **Configurar o Pages**:
+   - No seu repositório, clique na aba **Settings**.
+   - No menu lateral esquerdo, clique em **Pages**.
+   - Em **Build and deployment > Branch**, selecione `main` (ou a branch principal) e a pasta `/(root)`.
+   - Clique em **Save**.
+4. **Acessar**: Aguarde alguns minutos e o GitHub fornecerá o link oficial (ex: `https://seu-nome.github.io/nome-do-repo/`).
 
-**Prerequisites:**  Node.js
+## ✨ Funcionalidades
+- 📅 Cronograma Semanal completo.
+- 📍 Localização integrada com Google Maps.
+- 📱 Links para Redes Sociais.
+- 🤖 **Pastoral IA**: Mensagens bíblicas personalizadas usando a API do Gemini.
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🎨 Design
+O projeto utiliza uma paleta de cores baseada na imagem de interior da igreja, com tons de pedra (stone) e âmbar (amber) para uma experiência acolhedora e moderna.
