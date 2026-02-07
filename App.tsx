@@ -10,7 +10,6 @@ import {
   ChevronDown,
   ChevronUp,
   Users,
-  // Added ChevronRight to fix the reference error
   ChevronRight
 } from 'lucide-react';
 import { 
