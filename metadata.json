@@ -1,0 +1,7 @@
+{
+  "name": "Catálogo VI.B.E",
+  "description": "Catálogo digital oficial do Ministério Vinde Benditos do Eterno (VI.B.E).",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
