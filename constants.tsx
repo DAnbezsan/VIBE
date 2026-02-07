@@ -1,10 +1,11 @@
+
 import React from 'react';
 import { Instagram, MapPin, Calendar } from 'lucide-react';
 import { Ministry, ServiceTime, SocialLink } from './types';
 
 export const CHURCH_NAME = "VI.B.E";
 export const CHURCH_FULL_NAME = "Vinde Benditos do Eterno";
-export const CHURCH_ADDRESS = "Av. das Nações, 1000 - Centro, Cidade - UF"; // Atualize com o endereço real
+export const CHURCH_ADDRESS = "Rua Exemplo, 123 - Bairro, Cidade - UF"; 
 export const MAP_LINK = "https://maps.app.goo.gl/iCSDfBZY3Fb9Db68A?g_st=ic";
 export const INSTAGRAM_VIBE_LINK = "https://www.instagram.com/ministeriovibe?igsh=MXhlY21pZ2V4NG04dw==";
 export const INSTAGRAM_KIDS_LINK = "https://www.instagram.com/min.infantil_vibe?igsh=bnZseWFtb2M2MmYw";

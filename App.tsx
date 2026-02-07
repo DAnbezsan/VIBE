@@ -211,7 +211,7 @@ const App: React.FC = () => {
             <h2 className="text-orange-500 font-black tracking-widest uppercase mb-6 text-sm flex items-center gap-2">
               <span className="w-8 h-[2px] bg-orange-500"></span> Nossa Identidade
             </h2>
-            <h3 className="text-4xl lg:text-6xl font-serif text-white mb-10 leading-tight">Família Vinde Benditos do Eterno.</h3>
+            <h3 className="text-4xl lg:text-6xl font-serif text-white mb-10 leading-tight">Como tudo começou.</h3>
             <p className="text-gray-400 text-xl leading-relaxed">
               Existimos para ser um farol de luz. No <strong>Ministério {CHURCH_NAME}</strong>, você encontrará comunhão sincera e adoração fervorosa.
             </p>
